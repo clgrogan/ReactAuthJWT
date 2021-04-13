@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# React JWT Authentication demo application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application demonstrating the use of JSON Web Token (JWT) Auth with React.
 
-## Available Scripts
+The expected use of the functionality will be to connect to an API that will be utilizing Spring Security.
 
-In the project directory, you can run:
+## Summary
 
-### `yarn start`
+- [Project Specifications](#project-specifications)
+- [Built With](#built-with)
+- [Subjects Demonstrated](#subjects-demonstrated)
+- [Deployment](#deployment)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Specifications
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Build a React application that will use JWT auth. The application will have three types of users with differing display "pages" for each. The application will allow logging into a RESTful API that is using JWT auth as well.
 
-### `yarn test`
+The application will also allow the creation of a new user account via the API. This functionality may not be available in our demo API, so this feature may remain untested.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `yarn build`
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Mozilla developer guide for HTML5.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Cascading Style Sheets latest official version.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Subjects Demonstrated
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+All of the following technologies, tools, topics, etc. were used for this project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- JSON Web Token (JWT) Auth
 
-### `yarn eject`
+## Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Web Site **TBD**
+- Code **[https://github.com/clgrogan/ReactAuthJWT](https://github.com/clgrogan/ReactAuthJWT)**
+- Hosted TBD
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Authors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**[Curt Grogan](https://github.com/clgrogan)** - Software Developer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- GitHub: [github.com/clgrogan](https://github.com/clgrogan)
+- LinkedIn: [www.linkedin.com/in/curtgrogan/](https://www.linkedin.com/in/curtgrogan/)
 
-## Learn More
+## Acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**[BezKoder - bezkoder.com](https://bezkoder.com/)** Spring Boot + React: JWT Authentication with Spring Security | React JWT Authentication (without Redux) example
